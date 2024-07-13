@@ -36,6 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+# Intro_Front-End_NextJS
 server side render
 จะทำการ render ที่ฝั่ง server แล้วส่งไปที่ client 
 
@@ -51,6 +52,3 @@ client side render
 การทำ animation บางอย่าง
 การเชื่อมต่อ GPS 
 กล้อง 
-
-
-# Intro_Front-End_NextJS
