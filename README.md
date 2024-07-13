@@ -65,5 +65,10 @@ component ทั้งหมดจะเป็น server side render
 child component ก็จะเป็น client side render ไปโดยปริยายเพราะมีการถูกเรียกใช้ใน main component
 แต่ถ้าเรียก ตรงๆ โดยไม่ผ่าน  main component ก็จะยังเป็น client side render
 
+server side render ใช้ reatc api หลายตัว ในการ render html
+โดยแบ่งเป็น route segments ไม่ทำทั้งหมดพร้อมกัน
+การทำงานจะแปลงข้อมูลให้ไปอยู่ในรูปแบบ React Server Component Payload
+แล้วไปใช้การทำงานร่วมกับ Client Component Javascript
+
 # Snipped generate react function in component
 tsrfc

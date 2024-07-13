@@ -1,11 +1,12 @@
 
 
+"use client"
 import React from 'react'
 
-type Props = {}
+type Props = {text:string}
 
-export default function RootPageClient({}: Props) {
+export default function RootPageClient({text}: Props) {
   return (
-    <div>RootPageClient</div>
+    <div>RootPageClient: {text}</div>
   )
 }
