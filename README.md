@@ -72,3 +72,22 @@ server side render ใช้ reatc api หลายตัว ในการ ren
 
 # Snipped generate react function in component
 tsrfc
+
+Result
+import React from 'react'
+
+type Props = {}
+
+export default function page({}: Props) {
+  return (
+    <div>page</div>
+  )
+}
+
+# Use state
+useStateSnippet
+
+Result
+const [first, setfirst] = useState(second)
+
+
