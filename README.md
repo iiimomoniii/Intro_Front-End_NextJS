@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+server side render
+จะทำการ render ที่ฝั่ง server แล้วส่งไปที่ client 
+
+ถ้าต้องการให้ component เป็น client side render 
+ก็ทำการประกาศที่หัวของ component เป็น
+"use client" 
+ก็จะกลายเป็น client side render แล้ว
+
+client side render
+นำมาใช้ในการทำให้ code ของ javascript ที่มีการทำ interaction นั้นทำงาน
+เช่นดักการ click button
+การใช้ hook
+การทำ animation บางอย่าง
+การเชื่อมต่อ GPS 
+กล้อง 
+
+
+# Intro_Front-End_NextJS
