@@ -58,5 +58,12 @@ server side render
 เอาcode java script ที่แปลงเป็น html ไปแสดงได้เลยโดยไม่ต้องรอไปแปลงที่ client 
 ใช้search engine เข้าใจได้งานในการค้นหา
 
+ถ้าไม่มีการระบุ "use client" 
+component ทั้งหมดจะเป็น server side render
+
+แต่ในกรณีที่ main component มีการประกาศ "use client" แต่ใน child ไม่มีการประกาศ
+child component ก็จะเป็น client side render ไปโดยปริยายเพราะมีการถูกเรียกใช้ใน main component
+แต่ถ้าเรียก ตรงๆ โดยไม่ผ่าน  main component ก็จะยังเป็น client side render
+
 # Snipped generate react function in component
 tsrfc
