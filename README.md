@@ -52,3 +52,11 @@ client side render
 การทำ animation บางอย่าง
 การเชื่อมต่อ GPS 
 กล้อง 
+
+server side render
+ลดขนาด bundle เพราะไม่ต้องส่งมา render ฝั่ง client
+เอาcode java script ที่แปลงเป็น html ไปแสดงได้เลยโดยไม่ต้องรอไปแปลงที่ client 
+ใช้search engine เข้าใจได้งานในการค้นหา
+
+# Snipped generate react function in component
+tsrfc
